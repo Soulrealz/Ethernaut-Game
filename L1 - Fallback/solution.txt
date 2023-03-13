@@ -1,0 +1,6 @@
+1. call contribute sending any amount of wei lower than 0.001 ether
+2. send any amount of ether to the contract to trigger receive function
+    a) call owner to confirm that you are indeed the new owner
+3. call withdraw
+
+- In those 3 steps I have both became the owner and drained the contract of all existing funds. 
