@@ -1,0 +1,1 @@
+Call web3.eth.getStorageAt with contract and '1' arguments to get the password and call unlock func with the returned value.
