@@ -1,0 +1,6 @@
+Execute the following commands in the browser console on ethernaut page:
+
+1: await web3.eth.getStorageAt(<address of your contract instance>, 5)
+this will give you the 2nd element in the data array
+2: take the string result from above and result.slice(0, 34)
+this will give you the data which will pass the require check in the unlock function
